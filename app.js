@@ -23,6 +23,10 @@ function populateCurrencyOptions(rates) {
         optionTo.textContent = currency;  
         toCurrency.appendChild(optionTo);  
     }  
+    fromCurrency.value = 'USD';
+
+
+    toCurrency.value = 'INR'; 
 }  
 
 async function convertCurrency() {  
